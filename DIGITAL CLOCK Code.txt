@@ -4,7 +4,7 @@ from tkinter.ttk import *
 from time import strftime
 
 root = Tk()
-root.title('Clock')
+root.title('BADHAVATH Clock')
 
 
 def time():
@@ -12,8 +12,8 @@ def time():
 	lbl.config(text=string)
 	lbl.after(1000, time)
 
-lbl = Label(root, font=('calibri', 40, 'bold'),
-			background='purple',
+lbl = Label(root, font=('Times Of Roman', 60, 'bold'),
+			background='green',
 			foreground='white')
 
 lbl.pack(anchor='center')
